@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+   <PreferenceCategory android:title="@string/pref_update_setting" >
+      <ListPreference       
+            android:key="prefVideoQuality"
+            android:defaultValue="1004"
+            android:entries="@array/videoQuality"
+            android:entryValues="@array/videoQualityValues"
+            android:summary="Choose the video quality"
+            android:title="Video Quality" />
+      <EditTextPreference
+             android:key="prefVideoFPS"
+             android:defaultValue="1"
+             android:digits="0123456789."
+             android:inputType="numberDecimal"
+             android:title="FPS"
+             android:summary="Frames per second"
+             android:dialogTitle="Enter desired FPS value" />   
+   </PreferenceCategory>
+</PreferenceScreen>
+<!--              android:checkableBehavior="single"    -->

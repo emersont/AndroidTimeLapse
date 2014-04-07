@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="videoQuality">
+        <item name="quality_time_lapse_low">Low (lowest available resolution)</item>
+        <item name="quality_time_lapse_qcif">QCIF (176 x 144)</item>
+        <item name="quality_time_lapse_qvga">QVGA (320 x 240)</item>
+        <item name="quality_time_lapse_cif">CIF (352 x 288)</item>
+        <item name="quality_time_lapse_480p">480p (720 x 480)</item>
+        <item name="quality_time_lapse_720p">720p (1280 x 720)</item>
+        <item name="quality_time_lapse_1080p">1080p (1920 x 1088)</item>
+        <item name="quality_time_lapse_high">High (highest available resolutions)</item>
+    </string-array>
+    <string-array name="videoQualityValues">
+        <item name="quality_time_lapse_low">1000</item>
+        <item name="quality_time_lapse_qcif">1002</item>
+        <item name="quality_time_lapse_qvga">1007</item>
+        <item name="quality_time_lapse_cif">1003</item>
+        <item name="quality_time_lapse_480p">1004</item>
+        <item name="quality_time_lapse_720p">1005</item>
+        <item name="quality_time_lapse_1080p">1006</item>
+        <item name="quality_time_lapse_high">1001</item>
+    </string-array>
+</resources>
